@@ -248,8 +248,11 @@ zipp==3.17.0
 /usr/local/cuda-12.1
 ```
 
-镜像拉取地址: 
+镜像拉取地址:
+
+```bash
 registry.cn-chengdu.aliyuncs.com/mdl_base_dev/ubuntu20.04_cuda11.3.1_cudnn8_python3.8:cuda12.1_cudnn9_torch2.2_tf2.12_mmcv2.1_mmdet3.3_transformers4.39_jupyter_compressed
+```
 
 ## Python3.9
 
