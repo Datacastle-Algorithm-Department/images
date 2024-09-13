@@ -11,7 +11,11 @@
 
 ## Python3.8
 
-Python主版本3.8以下目前有1个镜像，包含cuda11.3.1+cudnn8、cuda12.1+cudnn9、torch、tensorflow、mm套件等，详细pip freeze如下：
+Python主版本3.8以下目前有1个镜像，列表如下：
+
+## cuda11.3.1+cudnn8 + cuda12.1+cudnn9 + torch + tensorflow + mmvc+mmdet套件 + transformer
+
+详细pip freeze如下：
 
 ```bash
 absl-py==2.1.0
@@ -244,7 +248,7 @@ zipp==3.17.0
 /usr/local/cuda-12.1
 ```
 
-ubuntu20.04 + python3.8 + cuda11.3.1 + cudnn8 + cuda12.1 + cudnn9
+镜像拉取地址: registry.cn-chengdu.aliyuncs.com/mdl_base_dev/ubuntu20.04_cuda11.3.1_cudnn8_python3.8:cuda12.1_cudnn9_torch2.2_tf2.12_mmcv2.1_mmdet3.3_transformers4.39_jupyter_compressed
 
 ## Python3.9
 
