@@ -2,10 +2,10 @@
 
 以下均为用于推理的镜像，列表如下：
 
-1. [Python3.7](##Python3.7)
-2. [Python3.8](##Python3.8)
-3. [Python3.9](##Python3.9)
-4. [Python3.10](##Python3.10)
+1. [Python3.7](#Python3.7)
+2. [Python3.8](#Python3.8)
+3. [Python3.9](#Python3.9)
+4. [Python3.10](#Python3.10)
 
 ## Python3.7
 
