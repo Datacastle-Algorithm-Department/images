@@ -185,11 +185,15 @@ zipp==3.15.0
 镜像中的cuda路径为：
 
 ```bash
-/usr/local/cuda    -> cuda-12.1
-/usr/local/cuda-11 -> cuda-11.3
-/usr/local/cuda-11.3 
-/usr/local/cuda-12 -> cuda-12.1
-/usr/local/cuda-12.1
+/usr/local/cuda    -> cuda-11.7
+/usr/local/cuda-11 -> cuda-11.7
+/usr/local/cuda-11.7
+```
+
+镜像拉取地址:
+
+```bash
+docker pull registry.cn-chengdu.aliyuncs.com/mdl_base_dev/ubuntu20.04_cuda11.7.1_cudnn8_python3.7:tensorflow2.11.2_torch1.13.1_mmcv2.1_mmdet3.3_jupyterlab3.6.8
 ```
 
 ## Python3.8
