@@ -447,6 +447,8 @@ Python主版本3.9以下目前有1个镜像，列表如下：
 
 ## cuda11.6.2+cudnn8 + tensorflow + torch + PyG + scanpy + mmvc+mmdet套件
 
+详细pip freeze如下：
+
 ```bash
 absl-py==2.0.0
 addict==2.4.0
@@ -654,10 +656,18 @@ yapf==0.40.2
 zipp==3.17.0
 ```
 
+镜像中的cuda路径为：
+
 ```bash
 /usr/local/cuda    -> cuda-11.6
 /usr/local/cuda-11 -> cuda-11.6
 /usr/local/cuda-11.6 
+```
+
+镜像拉取地址:
+
+```bash
+docker pull registry.cn-chengdu.aliyuncs.com/mdl_base_dev/ubuntu20.04_cuda11.6.2_cudnn8_python3.9:tensorflow2.14.0_torch1.13.1_pyg2.4.0_scanpy1.9.8_mmcv2.1_mmdet3.3_jupyterlab1
 ```
 
 ## Python3.10
